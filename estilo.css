@@ -1,0 +1,55 @@
+body {
+    background-image: url(./Imagens/galaxy.gif);
+    background-color: black;
+}
+
+h1 {
+   text-align: center; 
+   font-family: sans-serif;
+   color: white;
+   text-shadow: 3px 3px rgb(63, 22, 139);
+}
+
+section {
+    margin: 0 auto 20px;
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+input {
+    border-radius: 5px;
+}
+
+select {
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: grey;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:active {
+    background-color: rgb(44, 44, 44);
+}
+
+.flex-container {
+    display: flex;
+    margin: auto;
+    width: 900px;
+    height: 500px;
+    border: 1px solid rgb(110, 110, 110);
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+    margin: 50px 25px;
+}
